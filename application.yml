@@ -1,8 +1,9 @@
-    eureka:
-      instance:
-        prefer-ip-address: false
-      client:
-        fetch-registry: true
-        register-with-eureka: true
-        service-url:
-          defaultZone: ${EUREKA_SERVER_ADDRESS:http://127.0.0.1:8761/eureka}
+eureka:
+  instance:
+    prefer-ip-address: false
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+    
+      defaultZone: ${EUREKA_SERVER_ADDRESS:http://127.0.0.1:8761/eureka}
